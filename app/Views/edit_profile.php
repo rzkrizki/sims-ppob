@@ -10,7 +10,7 @@
                     <div class="mr-3">
                         <input type="file" id="photo_profile" name="photo_profile" class="d-none"/>
                         <?php if ($session->profile_image == "https://minio.nutech-integrasi.app/take-home-test/null") { ?>
-                            <img src="<?= base_url('assets/images/profile_photo.png') ?>" alt="Photo Profile" id="photoImage" class="width-100 pointer" onclick="searchFile()">
+                            <img src="<?= base_url('public/assets/images/profile_photo.png') ?>" alt="Photo Profile" id="photoImage" class="width-100 pointer" onclick="searchFile()">
                         <?php } else { ?>
                             <img src="<?= $session->profile_image ?>" alt="Photo Profile" id="photoImage" class="width-100 pointer" onclick="searchFile()">
                         <?php } ?>
@@ -73,7 +73,7 @@
         data.append('file', $('#photo_profile')[0].files[0]);
         $.ajax({
             type: "PUT",
-            url: "<?= getenv("API_URL") ?>/profile/image",
+            url: "https://take-home-test-api.nutech-integrasi.app/profile/image",
             data: data,
             mimeType: "multipart/form-data",
             contentType: false,
@@ -112,7 +112,7 @@
     function updateProcess() {
 
         $.ajax({
-            url: "<?= getenv("API_URL") ?>/profile/update",
+            url: "https://take-home-test-api.nutech-integrasi.app/profile/update",
             type: "PUT",
             headers: {
                 "Authorization": "Bearer <?= $_COOKIE['sims_token'] ?>",

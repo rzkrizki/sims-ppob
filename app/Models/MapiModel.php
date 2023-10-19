@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class MapiModel extends Model
 {
     public static function curl_data($params, $type, $postData = null, $bearer = null){
-        $url = env("API_URL").$params;
+        $url = "https://take-home-test-api.nutech-integrasi.app".$params;
 
         if($type == "GET"){
             $request = array(

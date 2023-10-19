@@ -16,8 +16,8 @@ class App extends BaseConfig
      *
      *    http://example.com/
      */
-    // public string $baseURL = 'https://goro.goro.docker';
-    public string $baseURL = 'https://main--inquisitive-babka-c65366.netlify.app/';
+    public string $baseURL = 'https://sims.ppob.docker';
+    // public string $baseURL = 'https://sims-ppob.netlify.app/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.

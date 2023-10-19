@@ -67,7 +67,7 @@
         function topUpProcess() {
 
             $.ajax({
-                url: "<?= getenv("API_URL") ?>/topup",
+                url: "https://take-home-test-api.nutech-integrasi.app/topup",
                 type: "POST",
                 headers: {"Authorization": "Bearer <?= $_COOKIE['sims_token'] ?>"},
                 dataType: "json",

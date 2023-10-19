@@ -109,7 +109,7 @@
 
         function registerData() {
             $.ajax({
-                url: "<?= getenv("API_URL") ?>/registration",
+                url: "https://take-home-test-api.nutech-integrasi.app/registration",
                 type: "POST",
                 dataType: "json",
                 data: {

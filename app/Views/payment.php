@@ -48,7 +48,7 @@
         function paymentProcess() {
 
             $.ajax({
-                url: "<?= getenv("API_URL") ?>/transaction",
+                url: "https://take-home-test-api.nutech-integrasi.app/transaction",
                 type: "POST",
                 headers: {
                     "Authorization": "Bearer <?= $_COOKIE['sims_token'] ?>"

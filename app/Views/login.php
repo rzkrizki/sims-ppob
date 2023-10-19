@@ -7,8 +7,8 @@
     <title>SIMS PPOB-RIZKI RAMADHAN</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>" />
-    <link rel="stylesheet" href="<?= base_url('assets/css/styles.min.css') ?>?v=0.0.1" />
+    <link rel="stylesheet" href="<?= base_url('public/assets/css/bootstrap.min.css') ?>" />
+    <link rel="stylesheet" href="<?= base_url('public/public/assets/css/styles.min.css') ?>?v=0.0.1" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="<?= base_url('assets/images/logo.png') ?>">
 </head>
@@ -23,7 +23,7 @@
                             <div class="d-flex justify-content-center">
                                 <div class="media">
                                     <div class="mr-3">
-                                        <img src="<?= base_url('assets/images/logo.png') ?>" alt="Logo" class="width-100">
+                                        <img src="<?= base_url('public/assets/images/logo.png') ?>" alt="Logo" class="width-100">
                                     </div>
                                     <div class="media-body">
                                         <h3><strong>SIMS PPOB</strong> </h3>
@@ -51,14 +51,14 @@
             </div>
             <div class="col-6 background-pink">
                 <div class="imgbox">
-                    <img src="<?= base_url('assets/images/ilustrasi_login.png') ?>" class="center-fit width-100 height-auto" alt="Image Login">
+                    <img src="<?= base_url('public/assets/images/ilustrasi_login.png') ?>" class="center-fit width-100 height-auto" alt="Image Login">
                 </div>
             </div>
         </div>
     </div>
     <!-- Jquery dan Bootsrap JS -->
-    <script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
-    <script src="<?= base_url('assets/js/bootstrap.min.js') ?>"></script>
+    <script src="<?= base_url('public/assets/js/jquery.min.js') ?>"></script>
+    <script src="<?= base_url('public/assets/js/bootstrap.min.js') ?>"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         $(document).ready(function() {
@@ -92,7 +92,7 @@
 
         function apiProcessLogin(data) {
             $.ajax({
-                url: "<?= getenv("API_URL") ?>/login",
+                url: "https://take-home-test-api.nutech-integrasi.app/login",
                 type: "POST",
                 dataType: "json",
                 data: {
