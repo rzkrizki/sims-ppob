@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>" />
-    <link rel="stylesheet" href="<?= base_url('public/assets/css/styles.min.css') ?>?v=0.0.1" />
+    <link rel="stylesheet" href="<?= base_url('assets/css/styles.min.css') ?>?v=0.0.1" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="<?= base_url('assets/images/logo.png') ?>">
 </head>
