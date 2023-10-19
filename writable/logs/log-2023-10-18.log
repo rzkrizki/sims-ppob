@@ -1,0 +1,150 @@
+CRITICAL - 2023-10-18 03:07:54 --> Invalid file: "payment.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('payment.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('payment', [], true)
+ 3 APPPATH\Controllers\Payment.php(7): view('payment')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Payment->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 03:45:50 --> Call to a member function segment() on null
+in APPPATH\Views\layout\page_layout.php on line 38.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/page_layout', [], true)
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transaction', [], true)
+ 5 APPPATH\Controllers\Transaction.php(7): view('transaction')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Transaction->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 03:46:48 --> Call to a member function getSegment() on null
+in APPPATH\Views\layout\page_layout.php on line 38.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/page_layout', [], true)
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('transaction', [], true)
+ 5 APPPATH\Controllers\Transaction.php(7): view('transaction')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Transaction->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 03:47:07 --> Call to a member function getSegment() on null
+in APPPATH\Controllers\Transaction.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Transaction->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 16:18:01 --> Cannot pass parameter 1 by reference
+in APPPATH\Models\MapiModel.php on line 18.
+ 1 APPPATH\Controllers\Login.php(17): App\Models\MapiModel::curl_data('/login', 'POST', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->login_process()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 16:18:55 --> Cannot pass parameter 1 by reference
+in APPPATH\Models\MapiModel.php on line 18.
+ 1 APPPATH\Controllers\Login.php(17): App\Models\MapiModel::curl_data('/login', 'POST', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->login_process()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 17:06:30 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Login.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->login_process()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 17:06:56 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Login.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->login_process()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 17:20:12 --> Class 'App\Filters\AuthFilter' not found
+in SYSTEMPATH\Filters\Filters.php on line 173.
+ 1 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 17:20:32 --> Class 'App\Filters\AuthFilter' not found
+in SYSTEMPATH\Filters\Filters.php on line 173.
+ 1 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 17:21:07 --> Class 'App\Filters\AuthFilter' not found
+in SYSTEMPATH\Filters\Filters.php on line 173.
+ 1 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-18 17:21:34 --> Undefined variable: _SESSION
+in APPPATH\Filters\LoginFilter.php on line 28.
+ 1 APPPATH\Filters\LoginFilter.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _SESSION', 'C:\\laragon\\www\\goro.goro\\app\\Filters\\LoginFilter.php', 28, [...])
+ 2 SYSTEMPATH\Filters\Filters.php(182): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 17:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:23:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:23:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:23:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:23:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:23:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-10-18 17:23:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:23:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-10-18 17:23:33 --> Undefined index: sims_token
+in APPPATH\Filters\LoginFilter.php on line 38.
+ 1 APPPATH\Filters\LoginFilter.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sims_token', 'C:\\laragon\\www\\goro.goro\\app\\Filters\\LoginFilter.php', 38, [...])
+ 2 SYSTEMPATH\Filters\Filters.php(182): App\Filters\LoginFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 17:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:24:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:24:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:26:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:26:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:26:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-10-18 17:26:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:26:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-10-18 17:26:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:27:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:27:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-10-18 17:27:01 --> The route for "https://goro.goro.docker/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('https://goro.goro.docker/login')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Login.php(41): redirect('https://goro.goro.docker/login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-18 17:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:27:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:27:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:27:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:27:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-10-18 17:27:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:28:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:28:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:29:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-10-18 17:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-10-18 17:29:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-10-18 17:29:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
