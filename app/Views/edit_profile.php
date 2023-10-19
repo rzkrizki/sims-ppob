@@ -10,7 +10,7 @@
                     <div class="mr-3">
                         <input type="file" id="photo_profile" name="photo_profile" class="d-none"/>
                         <?php if ($session->profile_image == "https://minio.nutech-integrasi.app/take-home-test/null") { ?>
-                            <img src="<?= base_url('public/assets/images/profile_photo.png') ?>" alt="Photo Profile" id="photoImage" class="width-100 pointer" onclick="searchFile()">
+                            <img src="<?= base_url('assets/images/profile_photo.png') ?>" alt="Photo Profile" id="photoImage" class="width-100 pointer" onclick="searchFile()">
                         <?php } else { ?>
                             <img src="<?= $session->profile_image ?>" alt="Photo Profile" id="photoImage" class="width-100 pointer" onclick="searchFile()">
                         <?php } ?>

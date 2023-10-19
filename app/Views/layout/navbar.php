@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
     <div class="container">
         <a class="navbar-brand" href="<?= base_url() ?>">
-            <img src="<?= base_url('public/assets/images/logo.png') ?>" width="30" height="30" class="d-inline-block align-top" alt="">
+            <img src="<?= base_url('assets/images/logo.png') ?>" width="30" height="30" class="d-inline-block align-top" alt="">
             <strong>SIMS PPOB</strong>
         </a>
 

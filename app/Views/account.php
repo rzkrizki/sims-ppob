@@ -9,7 +9,7 @@
                 <div class="col-sm-6">
                     <div class="mr-3">
                         <?php if ($session->profile_image == "https://minio.nutech-integrasi.app/take-home-test/null") { ?>
-                            <img src="<?= base_url('public/assets/images/profile_photo.png') ?>" alt="Photo Profile" class="width-100">
+                            <img src="<?= base_url('assets/images/profile_photo.png') ?>" alt="Photo Profile" class="width-100">
                         <?php } else { ?>
                             <img src="<?= $session->profile_image ?>" alt="Photo Profile" class="width-100">
                         <?php } ?>
